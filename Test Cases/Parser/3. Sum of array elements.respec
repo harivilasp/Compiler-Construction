@@ -1,0 +1,16 @@
+int main() {
+	
+	array <int, 20> arr;
+	int i = 0;
+
+	int sum = 0;
+
+	while ((i < 20)) {
+		sum = (sum + call get(i, arr));
+		i = (i + 1);
+	}
+
+	call print(sum);
+
+	return 0;
+}
